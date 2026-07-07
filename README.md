@@ -94,7 +94,7 @@ Browser|                         |Server
 5.**Rendering**:The browser processes the received files, builds the webpage, applies styles, executes JavaScript, and displays the final webpage to the user.
 *(The browser performs Parse HTML, Create DOM, Download CSS, Create CSSOM, Execute JavaScript, Combine DOM + CSSOM, Paint webpage)*
 
-##TCP And UDP
+## TCP And UDP
 | TCP | UDP |
 |:------:|:------:|
 | Transmission Control Protocol | User Datagram Protocol |
