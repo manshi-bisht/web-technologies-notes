@@ -95,7 +95,6 @@ Browser|                         |Server
 ```
 5.**Rendering**:The browser processes the received files, builds the webpage, applies styles, executes JavaScript, and displays the final webpage to the user.
 *(The browser performs Parse HTML, Create DOM, Download CSS, Create CSSOM, Execute JavaScript, Combine DOM + CSSOM, Paint webpage)*
----
 
 ## TCP And UDP
 | TCP | UDP |
@@ -107,7 +106,6 @@ Browser|                         |Server
 | Slower | faster |
 | More secure | Less secure |
 | Used in Web browsing, Email, File Transfer | Used in Video streaming, Online gaming |
----
 
 ## Caching
 Caching is the process of storing frequently accessed data in a temporary storage area called a cache, so that future requests for the same data can be served faster without fetching it again from the original source.<br>
@@ -121,7 +119,6 @@ flowchart TD
     caching --> os["at os level"]
     caching --> router["at router level"]
 ```
----
 
 ## HTTP and HTTPS
 | HTTP | HTTPS  |
@@ -132,7 +129,6 @@ flowchart TD
 | Does not require security certificate. | Requires security certificate. |
 | URL begins with http:// | URL begins with https:// and displays a padlock icon in the browser. |
 | Browser ---- Plain Text ----> Server | Browser=== Encrypted Data ===>Server |
----
 
 ## Shared and Dedicated Server
 
@@ -143,7 +139,6 @@ flowchart TD
 | Performance may decrease due to traffic.	| Provides consistent and high performance. |
 | Limited control over server settings.	| Full control and customization of the server. |
 | Suitable for small websites, personal projects. |  Suitable for large websites, e-commerce platforms. |
----
 
 ## HTML(Hyper Text Markup Language)
 HTML (HyperText Markup Language) is the ***standard markup language*** used to create and structure web pages. 
@@ -174,7 +169,6 @@ Why do we use semantic tags?
 
 ***#NOTE***
 div and span are useful generic containers, overusing them *reduces code clarity and negatively affect Search Engine Optimization*, instead tags like **header, footer, main, aside, are used in place of div tag**. Similarly, table should be used only for tabular data as it slowers rendering and is not very responsive, while modern layouts should be created using **Flexbox or CSS Grid**.
----
 
 ## CSS
 ### What is CSS?
@@ -182,7 +176,6 @@ div and span are useful generic containers, overusing them *reduces code clarity
 
  CSS is used to change the look and feel of a webpage.<br>
  CSS makes the website more presentable and attractive.<br>
- ---
 
 ### Ways to Embed CSS in HTML File:
   --Inline CSS<br>
@@ -199,7 +192,6 @@ div and span are useful generic containers, overusing them *reduces code clarity
   ***#NOTE***
    -External CSS is the best method because it keeps HTML and styling separate and ensure code reusability.<br>
    -Inline CSS is less popular because they make websites incredibly difficult to maintain and break the concept of code reusability.<br>
-   ---
 
 ### CSS Selectors
     -Universal Selector (*) 
@@ -207,7 +199,6 @@ div and span are useful generic containers, overusing them *reduces code clarity
     -id  Selector(#idname)
     -Element Selector(p,h1,etc)
     -Nested Selector(.sidebar h2)
----
 
 ### CSS layouts
 i. ***Flexbox (Flexible Box Layout)***: Flexbox is a one-dimensional CSS layout model used to arrange elements in a row or a column. It makes it easy to align, distribute, and space items within a container.<br>
@@ -245,7 +236,6 @@ This layout is commonly **used on websites that display images or cards of varyi
 +-------+-------+-------+
 ```
 -Used in Photo galleries, Pinterest-style websites, Product catalogs, Portfolio websites and Blog card layouts
----
 
 ### JPG and PNG Image Formats
 #### JPG
@@ -259,7 +249,6 @@ This layout is commonly **used on websites that display images or cards of varyi
 -It also supports transparent backgrounds, making it ideal for graphics, logos, icons, and images with text.<br>
 -Larger file size<br>
 -Supports transparency<br>
----
 
 ***#NOTE***
 Responsive Web Design<br>
