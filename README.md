@@ -128,7 +128,7 @@ flowchart TD
 | URL begins with http:// | URL begins with https:// and displays a padlock icon in the browser. |
 | Browser ---- Plain Text ----> Server | Browser=== Encrypted Data ===>Server |
 
-##Shared and Dedicated Server
+## Shared and Dedicated Server
 
 | Shared Server | Dedicated Server  |
 |:------:|:------:|
