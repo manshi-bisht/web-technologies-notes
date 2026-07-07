@@ -141,9 +141,9 @@ flowchart TD
 | Suitable for small websites, personal projects. |  Suitable for large websites, e-commerce platforms. |
 
 ## HTML(Hyper Text Markup Language)
-HTML (HyperText Markup Language) is the ***standard markup language*** used to create and structure web pages. 
--It defines the content of a webpage using elements called tags, such as headings, paragraphs, images, links, tables, and forms.
-  ***Markup Languages*** 
+HTML (HyperText Markup Language) is the ***standard markup language*** used to create and structure web pages. <br>
+-It defines the content of a webpage using elements called tags, such as headings, paragraphs, images, links, tables, and forms.<br>
+  ***Markup Languages*** <br>
   -Defines the structure of a document.
   -Uses tags.
   -Does not have any logics , variables, functions unlike programming languages.
